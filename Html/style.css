@@ -43,3 +43,15 @@
   height: 90vh;
   width: 100%;
 }
+.header {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(198, 196, 196);
+  font-size: 30px;
+}
+.footer {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(105, 104, 104);
+  font-size: 30px;
+}
