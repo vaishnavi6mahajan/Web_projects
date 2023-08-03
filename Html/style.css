@@ -55,3 +55,35 @@
   background-color: rgb(105, 104, 104);
   font-size: 30px;
 }
+.text1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* height: 100vh; */
+}
+.textleft {
+  height: 75vh;
+  width: 50%;
+  /* border: 1px solid rgb(245, 240, 240); */
+  border-right: 15px solid goldenrod;
+  margin: 5% 0% 15% 20%;
+}
+.textleft h1 {
+  display: flex;
+  color: rgb(252, 250, 247);
+  align-content: end;
+  justify-content: flex-end;
+  margin: 10%;
+}
+.textright {
+  height: 60vh;
+  width: 50%;
+  /* border: 2px solid rgb(245, 240, 240); */
+  margin-top: 5%;
+}
+.textright p {
+  color: aliceblue;
+  margin-top: 6%;
+  padding: 5%;
+  /* text-align: left; */
+}
