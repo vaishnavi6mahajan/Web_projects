@@ -14,11 +14,10 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-end;
-  
 }
-.img2 .card{
+.img2 .card {
   width: 400px;
-  height:300px;
+  height: 300px;
   border: 1px solid black;
 }
 .img3 {
@@ -60,28 +59,28 @@
   background-color: rgb(105, 104, 104);
   font-size: 30px;
 }
-.first{
+.first {
   background-color: rgb(105, 104, 104);
   height: 10px;
   display: flex;
   align-content: center;
 }
-.first button{
+.first button {
   color: white;
 }
-.second{
+.second {
   display: flex;
   justify-content: flex-end;
 }
-.second a{
+.second a {
   color: white;
 }
-ul,li{
-  flex:1;
+ul,
+li {
+  flex: 1;
   max-width: 800px;
 }
-.navbar-brand
-{
+.navbar-brand {
   font-size: larger;
 }
 /* header */
@@ -90,4 +89,36 @@ ul,li{
   text-align: center;
   background-color: rgb(105, 104, 104);
   font-size: 30px;
+}
+.text1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* height: 100vh; */
+}
+.textleft {
+  height: 75vh;
+  width: 50%;
+  /* border: 1px solid rgb(245, 240, 240); */
+  border-right: 15px solid goldenrod;
+  margin: 5% 0% 15% 20%;
+}
+.textleft h1 {
+  display: flex;
+  color: rgb(252, 250, 247);
+  align-content: end;
+  justify-content: flex-end;
+  margin: 10%;
+}
+.textright {
+  height: 60vh;
+  width: 50%;
+  /* border: 2px solid rgb(245, 240, 240); */
+  margin-top: 5%;
+}
+.textright p {
+  color: aliceblue;
+  margin-top: 6%;
+  padding: 5%;
+  /* text-align: left; */
 }
