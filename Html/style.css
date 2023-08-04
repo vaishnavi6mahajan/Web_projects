@@ -92,7 +92,6 @@ li {
 }
 .text1 {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: row;
   /* height: 100vh; */
 }
@@ -120,7 +119,10 @@ li {
   color: aliceblue;
   margin-top: 6%;
   padding: 5%;
+  display: flex;
+  justify-content: start;
   /* text-align: left; */
+  background-color: aqua;
 }
 .img2 h3{
   color:black;
