@@ -150,12 +150,31 @@
   width:400px;
   height:60vh;
   background-color: white;
- 
+  
 }
 .img3 .outer .card2 .text .display-4
 {
   font-weight:700;
+  
   margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+.img3 .outer .card2 .text p{
+  margin-left: 2em;
+  margin-top: 1.5em;
+}
+.img3 .outer .card2 .text button{
+  background-color: rgb(219, 172, 52);
+  color:black;
+  margin-left: 3em;
+  margin-top: 10px;
+  font-size:small;
+  font-weight: 600;
+  padding: 10px;
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(219, 172, 52);
 }
 .img4 {
   background-color: rgb(198, 196, 196);
