@@ -176,7 +176,7 @@ li {
 .img2 h3 {
   color: black;
 }
-@media (max-width: 1300px) {
+@media (min-width: 750px) and (max-width: 1300px) {
   .text1 {
     display: flex;
     flex-wrap: wrap;
@@ -196,8 +196,6 @@ li {
     margin-left: 30%;
     width: 20%;
   }
-}
-@media (min-width: 750px) and (max-width: 1300px) {
   .img2 {
     height: 85vh;
     display: flex;
@@ -212,5 +210,24 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .text1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .textleft {
+    height: 20vh;
+    margin-bottom: 10%;
+  }
+  .textleft h1 {
+    justify-content: flex-end;
+  }
+  .textright {
+    display: flex;
+    /* justify-content: center; */
+    justify-items: center;
+    margin-left: 30%;
+    width: 20%;
   }
 }
