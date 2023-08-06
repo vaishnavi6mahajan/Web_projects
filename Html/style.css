@@ -265,12 +265,12 @@ li {
   font-size: 30px;
 }
 
-@media (min-width: 750px) and (max-width: 1300px) {
+/* @media (min-width: 750px) and (max-width: 1300px) {
   .text1 {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
-  }
+  /* }
   .textleft {
     height: 20vh;
     margin-bottom: 10%;
@@ -281,7 +281,7 @@ li {
   .textright {
     display: flex;
     /* justify-content: center; */
-    justify-items: center;
+    /* justify-items: center;
     margin-left: 30%;
     width: 20%;
   }
@@ -296,7 +296,7 @@ li {
     height: 140vh;
     display: flex;
     /* flex-wrap: wrap; */
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -304,19 +304,19 @@ li {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
-  }
+  /* }
   .textleft {
-    height: 20vh;
-    margin-bottom: 10%;
+    height: 20vh; */
+    /* margin-bottom: 10%;
   }
   .textleft h1 {
     justify-content: flex-end;
   }
-  .textright {
-    display: flex;
-    /* justify-content: center; */
-    justify-items: center;
+  .textright { */
+    /* display: flex; */ 
+    
+    /* justify-items: center;
     margin-left: 30%;
-    width: 20%;
-  }
-}
+    width: 20%; */
+  
+
