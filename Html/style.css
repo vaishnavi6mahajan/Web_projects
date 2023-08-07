@@ -252,7 +252,7 @@
 ul,
 li {
   flex: 1;
-  max-width: 800px;
+  max-width: 600px;
 }
 .navbar-brand {
   font-size: larger;
@@ -263,6 +263,52 @@ li {
   text-align: center;
   background-color: rgb(105, 104, 104);
   font-size: 30px;
+}
+.img6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img6 .outer{
+  width:70%;
+  height:90vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+}
+.img6 .outer .first1{
+  width:45%;
+  height:90vh;
+  border: 1px solid black;
+  
+  /* display: flex;
+  flex-direction: row; */
+}
+.img6 .outer .first1 img{
+  height:75vh;
+  width:500px;
+}
+.sanika{
+  width:700px;
+  height:70px;
+  background-color: brown;
+  margin-left: 200px;
+  z-index:-1;
+  
+}
+.img6 .outer .white{
+  width:450px;
+  height:75vh;
+  display: flex;
+  align-items: center;
+  border:1px solid red;
+  /* background-color: white; */
+}
+.img6 .outer .white .whitei{
+  width: 500px;
+  height: 60vh;
+  background-color: white;
 }
 
 /* @media (min-width: 750px) and (max-width: 1300px) {
