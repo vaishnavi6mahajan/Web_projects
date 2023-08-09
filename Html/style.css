@@ -255,6 +255,37 @@ img.image2 {
   background-color: rgb(219, 172, 52);
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img6 .outer{
+  width: 1000px;
+  height: 80vh;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.img6 .outer .white{
+  width:600px;
+  height: 38vh;
+  background-color:rgb(222, 233, 236);
+ 
+  margin-left: -150px;
+  
+  margin-top: 19em;
+}
+.img6 .outer img{
+  width: 500px;
+  height: 70vh;
+  z-index: 1;
+}
+.img6 .outer .info{
+  width:400px;
+  height: 60vh;
+  background-color:white;
+  margin-top: 40px;
+  margin-left: -500px;
+  z-index: 2;
 }
 .img7 {
   background-color: #d9d9d9;
@@ -305,50 +336,8 @@ li {
   background-color: rgb(105, 104, 104);
   font-size: 30px;
 }
-.img6 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.img6 .outer {
-  width: 70%;
-  height: 90vh;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-}
-.img6 .outer .first1 {
-  width: 45%;
-  height: 90vh;
-  border: 1px solid black;
 
-  /* display: flex;
-  flex-direction: row; */
-}
-.img6 .outer .first1 img {
-  height: 75vh;
-  width: 500px;
-}
-.sanika {
-  width: 700px;
-  height: 70px;
-  background-color: brown;
-  margin-left: 200px;
-  z-index: -1;
-}
-.img6 .outer .white {
-  width: 450px;
-  height: 75vh;
-  display: flex;
-  align-items: center;
-  border: 1px solid red;
-  /* background-color: white; */
-}
-.img6 .outer .white .whitei {
-  width: 500px;
-  height: 60vh;
-  background-color: white;
-}
+
 
 /* @media (min-width: 750px) and (max-width: 1300px) {
   .text1 {
