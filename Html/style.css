@@ -222,23 +222,29 @@
   flex-direction: column;
   margin: 1em 0em 0em 0em;
   padding: 1em 0em 0em 2em;
-  position: relative;
+  position: absolute;
   background-color: white;
   box-shadow: 10px solid black;
 }
 .decidea p {
   word-wrap: break-word;
 }
-img.image1 {
-  height: 26em;
-  width: 21em;
-  margin: 8em 0em 0em 3em;
+.img5 .image1 {
+  margin: 1em 0em 0em 3em;
+}
+.image1 img {
+  height: 28em;
+  width: 20em;
+  /* margin: 1em 0em 0em 3em; */
   overflow: hidden;
 }
-img.image2 {
+.img5 .image2 {
+  margin: 1em 0em 0em 3em;
+}
+.image2 img {
   height: 20em;
   width: 30em;
-  margin: 16em 0em 0em 6em;
+  /* margin: 16em 0em 0em 6em; */
   overflow: hidden;
 }
 .img5 .img3 {
@@ -259,30 +265,30 @@ img.image2 {
   justify-content: center;
   align-items: center;
 }
-.img6 .outer{
+.img6 .outer {
   width: 1000px;
   height: 80vh;
   /* border: 1px solid black; */
   display: flex;
 }
-.img6 .outer .white{
-  width:600px;
+.img6 .outer .white {
+  width: 600px;
   height: 38vh;
-  background-color:rgb(222, 233, 236);
- 
+  background-color: rgb(222, 233, 236);
+
   margin-left: -150px;
-  
+
   margin-top: 19em;
 }
-.img6 .outer img{
+.img6 .outer img {
   width: 500px;
   height: 70vh;
   z-index: 1;
 }
-.img6 .outer .info{
-  width:400px;
+.img6 .outer .info {
+  width: 400px;
   height: 60vh;
-  background-color:white;
+  background-color: white;
   margin-top: 40px;
   margin-left: -500px;
   z-index: 2;
@@ -336,8 +342,6 @@ li {
   background-color: rgb(105, 104, 104);
   font-size: 30px;
 }
-
-
 
 /* @media (min-width: 750px) and (max-width: 1300px) {
   .text1 {
