@@ -57,7 +57,7 @@
   border-radius: 10px;
 }
 .img2 {
-  background-color: rgb(198, 196, 196);
+  background-color: #d9d9d9;
   height: 50vh;
   width: 100%;
   display: flex;
@@ -71,7 +71,7 @@
 .card {
   width: 350px;
   height: 300px;
-  border: 1px solid rgb(198, 196, 196);
+  border: 1px solid #d9d9d9;
 }
 .card .box {
   width: 100%;
@@ -79,7 +79,7 @@
   /* border: 1px solid black; */
   display: flex;
   justify-content: center;
-  background-color: rgb(198, 196, 196);
+  background-color: #d9d9d9;
 }
 .card .box .circle {
   width: 100px;
@@ -170,7 +170,7 @@
   border: 1px solid rgb(219, 172, 52);
 }
 .img4 {
-  background-color: rgb(198, 196, 196);
+  background-color: #d9d9d9;
   height: 83vh;
   width: 100%;
   border: 2px solid black;
@@ -181,8 +181,8 @@
   margin-top: 2rem;
 }
 .img4 .row .cards {
-  border-left: 12px solid rgb(198, 196, 196);
-  border-bottom: 18px solid rgb(198, 196, 196);
+  border-left: 12px solid #d9d9d9;
+  border-bottom: 18px solid #d9d9d9;
   height: 16em;
   /* width: 50%; */
   background-color: white;
@@ -207,7 +207,7 @@
 }
 .img5 {
   background-color: #d9d9d9;
-
+  position: relative;
   height: 120vh;
   width: 100%;
   display: flex;
@@ -215,30 +215,31 @@
 }
 .decidea {
   height: 20em;
-  width: 30em;
+  width: 32em;
   /* border: 1px solid black; */
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   margin: 1em 0em 0em 0em;
-  padding: 1em 0em 0em 1em;
-  position: absolute;
+  padding: 1em 0em 0em 2em;
+  position: relative;
   background-color: white;
   box-shadow: 10px solid black;
 }
 .decidea p {
   word-wrap: break-word;
 }
-.img5 .img1 {
-  height: 20em;
-  width: 16em;
-  margin: 13em 0em 10em 10em;
-  position: static;
+img.image1 {
+  height: 26em;
+  width: 21em;
+  margin: 8em 0em 0em 3em;
+  overflow: hidden;
 }
-.img5 .img2 {
+img.image2 {
   height: 20em;
   width: 30em;
-  margin: 16em -12em 0em 30em;
+  margin: 16em 0em 0em 6em;
+  overflow: hidden;
 }
 .img5 .img3 {
   height: 20em;
@@ -256,7 +257,7 @@
   width: 100%;
 }
 .img7 {
-  background-color: rgb(198, 196, 196);
+  background-color: #d9d9d9;
   height: 100vh;
   width: 100%;
   /* border: 2px solid black; */
