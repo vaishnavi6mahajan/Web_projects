@@ -173,7 +173,7 @@
   background-color: #d9d9d9;
   height: 83vh;
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .img4 h1 {
   display: flex;
@@ -208,10 +208,11 @@
 .img5 {
   background-color: #d9d9d9;
   position: relative;
-  height: 120vh;
+  height: 150vh;
   width: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
+  flex-wrap: wrap;
 }
 .decidea {
   height: 20em;
@@ -220,11 +221,12 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 1em 0em 0em 0em;
+  margin: 2em 0em 0em 32em;
   padding: 1em 0em 0em 2em;
   position: absolute;
   background-color: white;
   box-shadow: 10px solid black;
+  z-index: 1;
 }
 .decidea p {
   word-wrap: break-word;
@@ -234,28 +236,54 @@
 }
 .image1 img {
   height: 28em;
-  width: 20em;
+  width: 22em;
   /* margin: 1em 0em 0em 3em; */
-  overflow: hidden;
+  position: relative;
+  top: 5em;
+  left: 14em;
 }
 .img5 .image2 {
   margin: 1em 0em 0em 3em;
 }
 .image2 img {
-  height: 20em;
+  height: 21em;
   width: 30em;
-  /* margin: 16em 0em 0em 6em; */
-  overflow: hidden;
+  position: relative;
+  bottom: 11em;
+  left: 40em;
 }
-.img5 .img3 {
-  height: 20em;
-  width: 16em;
-  /* margin: 15em 47em 10em 10em; */
+.img5 .image3 {
+  margin: 1em 0em 0em 3em;
 }
-.img5 .img4 {
-  height: 20em;
-  width: 16em;
-  /* margin: 15em 47em 10em 10em; */
+.image3 img {
+  position: relative;
+  height: 18em;
+  width: 20em;
+  bottom: 14em;
+  left: 30em;
+}
+.img5 .image4 {
+  margin: 1em 0em 0em 3em;
+}
+.image4 img {
+  border: none;
+  height: 25em;
+  width: 22em;
+  position: relative;
+  bottom: 27em;
+  left: 55em;
+}
+.leftbox {
+  height: 10em;
+  width: 35em;
+  border-left: 15px solid rgb(121, 120, 120);
+  /* position:relative; */
+  margin: -39em 0em 0em 4em;
+}
+.leftbox p {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
 }
 .img6 {
   background-color: rgb(219, 172, 52);
@@ -293,18 +321,18 @@
   margin-left: -450px;
   z-index: 2;
 }
-.img6 .outer .info h1{
+.img6 .outer .info h1 {
   font-weight: 800;
   font-size: 3em;
   margin-left: 20px;
 }
-.img6 .outer .info p{
+.img6 .outer .info p {
   color: grey;
   margin-left: 20px;
   margin-top: 5px;
   padding-bottom: 0px;
 }
-.img6 .outer .info .btn{
+.img6 .outer .info .btn {
   margin-left: 15px;
   margin-top: 15px;
 }
