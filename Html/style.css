@@ -272,8 +272,8 @@
   display: flex;
 }
 .img6 .outer .white {
-  width: 600px;
-  height: 38vh;
+  width: 550px;
+  height: 35vh;
   background-color: rgb(222, 233, 236);
 
   margin-left: -150px;
@@ -290,8 +290,23 @@
   height: 60vh;
   background-color: white;
   margin-top: 40px;
-  margin-left: -500px;
+  margin-left: -450px;
   z-index: 2;
+}
+.img6 .outer .info h1{
+  font-weight: 800;
+  font-size: 3em;
+  margin-left: 20px;
+}
+.img6 .outer .info p{
+  color: grey;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding-bottom: 0px;
+}
+.img6 .outer .info .btn{
+  margin-left: 15px;
+  margin-top: 15px;
 }
 .img7 {
   background-color: #d9d9d9;
