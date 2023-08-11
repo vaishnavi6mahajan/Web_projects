@@ -349,6 +349,7 @@
   margin-left: 10em;
   margin-top: 5em;
   position: relative;
+  /* z-index: 2; */
 }
 .img7 .imag2 img{
   width:600px;
@@ -356,10 +357,13 @@
   margin-left: 40em;
   margin-top: -10em;
   z-index: -1;
+  
+  
 }
 .img7 .cozy{
   width:520px;
   height:500px;
+
   margin-left: 20em;
   margin-top: -10em;
   background-color: white;
